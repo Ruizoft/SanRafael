@@ -1,0 +1,1065 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"loa",
+				"loader"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"ci",
+				"children_translate"
+			],
+			[
+				"w",
+				"webkitTransform"
+			],
+			[
+				"move",
+				"moveLogo"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"main",
+				"main-cover"
+			],
+			[
+				"cover-",
+				"cover-container"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"mas",
+				"masthead"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"ho",
+				"hospedaje"
+			],
+			[
+				"img",
+				"imgContainer"
+			],
+			[
+				"im",
+				"imgRight"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"right",
+				"rightCol"
+			],
+			[
+				"ac",
+				"actividades"
+			],
+			[
+				"an",
+				"animatedLeft"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"mx",
+				"max-height"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"righ",
+				"rightCol"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"mov",
+				"moveLeft"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"from",
+				"from_poi_percent"
+			],
+			[
+				"word",
+				"word_data"
+			],
+			[
+				"wor",
+				"word_data"
+			],
+			[
+				"fr",
+				"from_data"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"emai",
+				"email_data"
+			],
+			[
+				"em",
+				"email_data"
+			],
+			[
+				"wo",
+				"words"
+			],
+			[
+				"text",
+				"text_string"
+			],
+			[
+				"ne",
+				"net_worths_test"
+			],
+			[
+				"age",
+				"ages_train"
+			],
+			[
+				"sc",
+				"score"
+			],
+			[
+				"net",
+				"net_worths_train"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"play",
+				"playVid"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ju",
+				"jumbotron"
+			],
+			[
+				"comp",
+				"companyFormatter"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"foto",
+				"fotoForm"
+			],
+			[
+				"per",
+				"perfilImg"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"pdf",
+				"pdfForm"
+			],
+			[
+				"the",
+				"thePDF"
+			],
+			[
+				"pro",
+				"Producto"
+			],
+			[
+				"fecha",
+				"fechaP"
+			],
+			[
+				"val",
+				"valorP"
+			],
+			[
+				"nom",
+				"nombreP"
+			],
+			[
+				"dat",
+				"datarow"
+			],
+			[
+				"por",
+				"productR"
+			],
+			[
+				"vin",
+				"vinculacion"
+			],
+			[
+				"ban",
+				"background-color"
+			],
+			[
+				"se",
+				"segurosMain"
+			],
+			[
+				"fe",
+				"fechaPago"
+			],
+			[
+				"nu",
+				"numeroPoliza"
+			],
+			[
+				"prod",
+				"producto"
+			],
+			[
+				"vincu",
+				"vinculaciones"
+			],
+			[
+				"da",
+				"datarow"
+			],
+			[
+				"data",
+				"datafield"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"seguro",
+				"seguroForm"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"do",
+				"documentos"
+			],
+			[
+				"guar",
+				"guardaR"
+			],
+			[
+				"print",
+				"printButton"
+			],
+			[
+				"name",
+				"nameR"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"as",
+				"asesorR"
+			],
+			[
+				"cli",
+				"clienteID"
+			],
+			[
+				"date",
+				"dateR"
+			],
+			[
+				"pr",
+				"productR"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"clien",
+				"cliente"
+			],
+			[
+				"client",
+				"clientID"
+			],
+			[
+				"fec",
+				"fechaYear"
+			],
+			[
+				"fech",
+				"fechaMes"
+			],
+			[
+				"est",
+				"estado"
+			],
+			[
+				"ce",
+				"celular"
+			],
+			[
+				"t",
+				"tframe"
+			],
+			[
+				"bro",
+				"border-right-color"
+			],
+			[
+				"i",
+				"iframe	Tag"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"jq",
+				"jqxGrid"
+			],
+			[
+				"cl",
+				"clienteID"
+			],
+			[
+				"vi",
+				"vinculacionesDataAdapter"
+			],
+			[
+				"vincul",
+				"vinculaciones"
+			],
+			[
+				"recor",
+				"records"
+			],
+			[
+				"s",
+				"source"
+			],
+			[
+				"dest",
+				"destinoPath"
+			],
+			[
+				"des",
+				"destinoPath"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"guarda",
+				"guardaPDF"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"forma",
+				"formaPago"
+			],
+			[
+				"co",
+				"cobertura"
+			],
+			[
+				"r",
+				"responseText"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"row",
+				"rowindex"
+			],
+			[
+				"vinc",
+				"vinculacionesbyid"
+			],
+			[
+				"nombre",
+				"nombre"
+			],
+			[
+				"c",
+				"commit"
+			],
+			[
+				"res",
+				"responseText"
+			],
+			[
+				"re",
+				"responseText"
+			],
+			[
+				"req",
+				"reqListener"
+			],
+			[
+				"json",
+				"json_encode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/main.blade.php",
+			"settings":
+			{
+				"buffer_size": 73949,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/main.js",
+			"settings":
+			{
+				"buffer_size": 8417,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/cover.css",
+			"settings":
+			{
+				"buffer_size": 10571,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/daniel/SanRafael/app/views/actividades.blade.php",
+		"/home/daniel/SanRafael/app/views/hospedaje.blade.php",
+		"/home/daniel/SanRafael/public/js/main.js",
+		"/home/daniel/SanRafael/public/css/cover.css",
+		"/home/daniel/SanRafael/public/actividades.html",
+		"/home/daniel/SanRafael/app/views/main.blade.php",
+		"/home/daniel/SanRafael/public/camping.html",
+		"/home/daniel/SanRafael/public/images/ICONOS_CAMPING.svg",
+		"/home/daniel/Downloads/styles.css",
+		"/home/daniel/Ruizoft/app/views/graph.blade.php",
+		"/home/daniel/Downloads/ex.svg",
+		"/home/daniel/Downloads/ICONOS CAMPING.svg",
+		"/home/daniel/SanRafael/public/principal.html",
+		"/home/daniel/SanRafael/public/hospedaje.html",
+		"/home/daniel/Downloads/iconos PCC.svg",
+		"/home/daniel/Downloads/iconos PNNT.svg",
+		"/home/daniel/SanRafael/public/css/main.css",
+		"/home/daniel/SanRafael/public/contacto.html",
+		"/home/daniel/SanRafael/public/css/modal.css",
+		"/home/daniel/SanRafael/public/css/animate.css",
+		"/home/daniel/SanRafael/app/routes.php",
+		"/home/daniel/SanRafael/public/css/animation.css",
+		"/home/daniel/SanRafael/public/css/effeckt.css",
+		"/home/daniel/.cache/.fr-oXUJBY/slim-scroll-1.2/resources/slimscroll.js",
+		"/home/daniel/SanRafael/public/js/page-transitions.js",
+		"/home/daniel/SanRafael/public/js/button.js",
+		"/home/daniel/SanRafael/public/js/modal.js",
+		"/home/daniel/SanRafael/public/js/core.js",
+		"/home/daniel/Documents/boiler/index.html",
+		"/home/daniel/ud120-projects/final_project/poi_id.py",
+		"/home/daniel/ud120-projects/final_project/my_dataset.pkl",
+		"/home/daniel/ud120-projects/final_project/my_feature_list.pkl",
+		"/home/daniel/ud120-projects/final_project/my_classifier.pkl",
+		"/home/daniel/ud120-projects/final_project/tester.py",
+		"/home/daniel/ud120-projects/tools/parse_out_email_text.py",
+		"/home/daniel/ud120-projects/text_learning/vectorize_text.py",
+		"/home/daniel/ud120-projects/final_project/emails_by_address/from_40enron@enron.com.txt",
+		"/home/daniel/ud120-projects/outliers/enron_outliers.py",
+		"/home/daniel/ud120-projects/outliers/outlier_cleaner.py",
+		"/home/daniel/ud120-projects/outliers/outlier_removal_regression.py",
+		"/home/daniel/ud120-projects/final_project/enron61702insiderpay.pdf",
+		"/home/daniel/Idiomity/public/js/main.js",
+		"/home/daniel/Idiomity/app/views/layouts/main.blade.php",
+		"/home/daniel/Idiomity/app/config/packages/artdarek/oauth-4-laravel/config.php",
+		"/home/daniel/Idiomity/app/config/app.php",
+		"/home/daniel/Idiomity/app/views/layouts/main2.blade.php",
+		"/home/daniel/Idiomity/public/css/main.css",
+		"/home/daniel/Idiomity/app/views/main.blade.php",
+		"/home/daniel/Idiomity/app/views/nav-static.blade.php",
+		"/home/daniel/Idiomity/app/routes.php",
+		"/home/daniel/Idiomity/app/views/nav.blade.php",
+		"/home/daniel/Idiomity/app/controllers/HomeController.php",
+		"/home/daniel/Idiomity/public/css/cover.css",
+		"/home/daniel/Idiomity/app/views/studio.blade.php",
+		"/home/daniel/Idiomity/public/css/bootstrap.min.css",
+		"/home/daniel/Studio/app/views/studio.blade.php",
+		"/home/daniel/Studio/public/css/cover.css",
+		"/home/daniel/RedIntegral/public/ajax/recibos.html",
+		"/home/daniel/RedIntegral/public/ajax/segurosMain.html",
+		"/home/daniel/RedIntegral/public/ajax/clienteEdit.html",
+		"/home/daniel/RedIntegral/public/ajax/mainJS.html",
+		"/home/daniel/RedIntegral/public/ajax/clientes.html",
+		"/home/daniel/RedIntegral/public/js/mainLoad.js",
+		"/home/daniel/RedIntegral/app/views/main.blade.php",
+		"/home/daniel/RedIntegral/public/js/authForm.js",
+		"/home/daniel/RedIntegral/public/js/NoUsomain.js",
+		"/home/daniel/RedIntegral/public/ajax/seguro.html",
+		"/home/daniel/RedIntegral/public/css/cover.css",
+		"/home/daniel/RedIntegral/public/ajax/principal.html",
+		"/home/daniel/RedIntegral/app/controllers/HomeController.php",
+		"/home/daniel/RedIntegral/app/views/navBar.blade.php",
+		"/home/daniel/RedIntegral/app/views/layouts/base.blade.php",
+		"/home/daniel/RedIntegral/app/views/emails/correo.blade.php",
+		"/home/daniel/RedIntegral/app/routes.php",
+		"/home/daniel/RedIntegral/public/ajax/perfil.html",
+		"/home/daniel/RedIntegral/app/views/perfil.blade.php",
+		"/home/daniel/RedIntegral/app/storage/logs/laravel.log",
+		"/home/daniel/RedIntegral/app/views/cliente.blade.php",
+		"/home/daniel/RedIntegral/public/ajax/vinculaciones.html",
+		"/home/daniel/RedIntegral/public/ajax/vincuJS.html",
+		"/home/daniel/RedIntegral/app/views/login.blade.php",
+		"/home/daniel/RedIntegral/public/js/main.js",
+		"/home/daniel/RedIntegral/app/models/Recibo.php",
+		"/home/daniel/RedIntegral/public/js/vinculaciones.js",
+		"/home/daniel/RedIntegral/app/views/clientes.blade.php",
+		"/home/daniel/RedIntegral/app/views/mainJCSS.blade.php",
+		"/home/daniel/RedIntegral/app/views/layouts/base2.blade.php",
+		"/home/daniel/RedIntegral/public/css/bootstrap.min.css",
+		"/home/daniel/RedIntegral/public/css/login.css",
+		"/home/daniel/RedIntegral/public/ajax/clientes.blade.php",
+		"/home/daniel/EncuestaUNAD/app/views/contacto.blade.php",
+		"/home/daniel/RedIntegral/app/models/Cliente.php",
+		"/home/daniel/RedIntegral/app/models/Documento.php",
+		"/home/daniel/RedIntegral/app/models/Seguro.php",
+		"/home/daniel/RedIntegral/app/models/Vinculacion.php",
+		"/home/daniel/RedIntegral/app/views/MODI.CSS",
+		"/home/daniel/RedIntegral/public/ajax/seguridad.html",
+		"/home/daniel/RedIntegral/public/ajax/funeraria.html",
+		"/home/daniel/RedIntegral/app/models/Seguridad.php",
+		"/home/daniel/RedIntegral/app/models/untitled.html",
+		"/home/daniel/RedIntegral/app/config/mail.php",
+		"/home/daniel/RedIntegral/app/controllers/UserController.php",
+		"/home/daniel/RedIntegral/app/database/migrations/2014_12_29_234938_create_users_table.php",
+		"/home/daniel/RedIntegral/app/filters.php",
+		"/home/daniel/RedIntegral/public/js/formLoad.js",
+		"/home/daniel/RedIntegral/app/config/view.php",
+		"/home/daniel/RedIntegral/app/config/services.php",
+		"/home/daniel/RedIntegral/app/config/auth.php",
+		"/home/daniel/RedIntegral/app/start/global.php",
+		"/home/daniel/Ruizoft/app/controllers/HomeController.php",
+		"/home/daniel/Ruizoft/app/models/Empleado.php",
+		"/home/daniel/Ruizoft/app/views/perfil.blade.php",
+		"/home/daniel/RedIntegral/app/controllers/BaseController.php",
+		"/home/daniel/RedIntegral/app/config/database.php",
+		"/home/daniel/RedIntegral/app/database/seeds/DatabaseSeeder.php",
+		"/home/daniel/Ruizoft/app/database/migrations/2014_10_15_211307_create_users_table.php",
+		"/home/daniel/Ruizoft/app/views/navbar.blade.php",
+		"/home/daniel/Ruizoft/app/views/Enterate.blade.php",
+		"/home/daniel/Ruizoft/app/views/tuEmpresa.blade.php",
+		"/home/daniel/Ruizoft/public/css/carousel.css",
+		"/home/daniel/Ruizoft/public/css/bootstrap.min.css",
+		"/home/daniel/Ruizoft/public/css/cover.css",
+		"/home/daniel/Ruizoft/app/views/layouts/base2.blade.php",
+		"/opt/lampp/htdocs/v15/mariposa/app/Controller/MenusController.php",
+		"/opt/lampp/htdocs/v15/renders/js/agregar_Inscripcion.js",
+		"/opt/lampp/htdocs/v15/mariposa/app/Controller/InscripcionsController.php",
+		"/opt/lampp/htdocs/v15/renders/agregar_inscripcion.php",
+		"/opt/lampp/htdocs/v15/mariposa/app/View/Seguimientos/recibeajax.ctp"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"230px",
+			"200px",
+			" background-image:",
+			" background-image: url(../images/cover-md.jpg);",
+			"fill=\"#50A767\"",
+			"#FFFFFF",
+			"leadCenter",
+			"animated",
+			"fadeIn",
+			"relative",
+			"main-cover",
+			"main-cov",
+			"jumbo",
+			".main-cover",
+			".cover-container",
+			".jumbotron",
+			"mast",
+			"masthead",
+			"class=\"col-lg-4",
+			"class=\"col-lg-4 ",
+			"col-lg-4 ",
+			"<p><a class=\"btn btn-default\" href=\"#\" role=\"button\">Ver más</a></p>",
+			"width=\"100\"",
+			"img-circle",
+			"featurette-heading leadCenter",
+			"leadCenter",
+			"featurette-heading",
+			"lead",
+			"imgMain",
+			"animatedLeft",
+			"animatedRight",
+			"off",
+			"fadeInLeft",
+			".animated",
+			"50",
+			"100",
+			"slideToTop",
+			"100",
+			"(-100%);",
+			"-100%)",
+			"slideToTop",
+			"slideToBottom",
+			"effeckt-page",
+			"jumbo",
+			"1200",
+			"effeckt-page",
+			"[data-effeckt-page]",
+			".effeckt-modal-wrap",
+			"&raquo;",
+			"h2",
+			"140",
+			"hidden",
+			">>>",
+			"background-position: 7px 9px;",
+			"background-position: 5px 9px;",
+			"background-position: 0 9px;",
+			"padding-right: 45px;",
+			"span",
+			"masterhead",
+			"padding-left",
+			"h4",
+			"colCustom",
+			"http://placehold.it/350x550",
+			"http://placehold.it/350x500",
+			"http://placehold.it/350x150",
+			"content",
+			"for",
+			"messages",
+			"enviarCorreo",
+			"correoForm",
+			"getElementById",
+			"cliente",
+			"clientes",
+			"{{{$foto}}}",
+			"{{{$name or ''}}}",
+			"value",
+			"printButton",
+			"cliente",
+			"fechaPago",
+			"fechaDia",
+			"estado",
+			"estrato",
+			"ingresos",
+			"celular",
+			"telefono",
+			"ocupacion",
+			"profesion",
+			"cedula",
+			"vinculaciones",
+			"ciudadRes",
+			"console",
+			"recibos",
+			"printButton",
+			"jqxGrid\"",
+			"input",
+			"nameR",
+			"vincu",
+			"$fechaMes",
+			"fechaMes",
+			"currentClient",
+			"value",
+			"console.log(datos);",
+			"jqwidgets",
+			"javascript.js",
+			"{{{ $disabled or \"\"}}}",
+			"{{{",
+			"clearfix",
+			"masterhead",
+			"new $.jqx.dataAdapter",
+			"initrowdetails",
+			"”",
+			"<option>",
+			"documentos",
+			"140",
+			"tipo",
+			"where",
+			"nombre",
+			"h1",
+			"4",
+			"    ",
+			"    $",
+			"    ",
+			"    $",
+			"=",
+			" =",
+			"=",
+			"json_decode",
+			"nombre"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/main.blade.php",
+					"settings":
+					{
+						"buffer_size": 73949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43671,
+								43671
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6856.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/js/main.js",
+					"settings":
+					{
+						"buffer_size": 8417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/css/cover.css",
+					"settings":
+					{
+						"buffer_size": 10571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1334,
+								1334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6210.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main",
+				"app/views/main.blade.php"
+			],
+			[
+				"filt",
+				"app/filters.php"
+			],
+			[
+				"acl",
+				"mariposa/lib/Cake/Controller/Component/AclComponent.php"
+			],
+			[
+				"dbo",
+				"mariposa/lib/Cake/Model/Datasource/DboSource.php"
+			],
+			[
+				"",
+				"mariposa/app/Controller/UsersController.php"
+			],
+			[
+				"seg",
+				"mariposa/app_sin_correciones/Controller/SeguimientosController.php"
+			],
+			[
+				"adm",
+				"mariposa/app/View/Users/admin.ctp"
+			],
+			[
+				"defa",
+				"mariposa/app/View/Layouts/default.ctp"
+			],
+			[
+				"users",
+				"mariposa/app/Controller/UsersController.php"
+			],
+			[
+				"admin",
+				"mariposa/app/View/Layouts/admin.ctp"
+			],
+			[
+				"upda",
+				"mariposa/app/webroot/UpdateSeguimientos.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 744.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/daniel/Ruizoft/ruizoft-project"
+			]
+		],
+		"width": 1301.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true
+}
