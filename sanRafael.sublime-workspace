@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"bo",
+				"bottom"
+			],
+			[
+				"moa",
+				"modalContent"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"u",
+				"userAgent"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"click",
+				"clickLoad"
+			],
+			[
+				"ho",
+				"hospedajee"
+			],
+			[
+				"hosp",
+				"hospedajee"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"clo",
+				"clickLoad"
+			],
+			[
 				"loa",
 				"loader"
 			],
@@ -28,14 +84,6 @@
 				"text-decoration"
 			],
 			[
-				"font",
-				"font-family"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
 				"o",
 				"opacity"
 			],
@@ -46,10 +94,6 @@
 			[
 				"cover-",
 				"cover-container"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"na",
@@ -74,10 +118,6 @@
 			[
 				"tr",
 				"transparent"
-			],
-			[
-				"ho",
-				"hospedaje"
 			],
 			[
 				"img",
@@ -472,77 +512,13 @@
 				"formaPago"
 			],
 			[
-				"co",
-				"cobertura"
-			],
-			[
 				"r",
 				"responseText"
-			],
-			[
-				"dis",
-				"disabled"
-			],
-			[
-				"row",
-				"rowindex"
-			],
-			[
-				"vinc",
-				"vinculacionesbyid"
-			],
-			[
-				"nombre",
-				"nombre"
-			],
-			[
-				"c",
-				"commit"
-			],
-			[
-				"res",
-				"responseText"
-			],
-			[
-				"re",
-				"responseText"
-			],
-			[
-				"req",
-				"reqListener"
-			],
-			[
-				"json",
-				"json_encode"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/main.blade.php",
-			"settings":
-			{
-				"buffer_size": 73949,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/js/main.js",
-			"settings":
-			{
-				"buffer_size": 8417,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/css/cover.css",
-			"settings":
-			{
-				"buffer_size": 10571,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -576,33 +552,72 @@
 	},
 	"file_history":
 	[
+		"/home/daniel/SanRafael/app/views/main.blade.php",
+		"/home/daniel/SanRafael/app/views/try.blade.php",
 		"/home/daniel/SanRafael/app/views/actividades.blade.php",
 		"/home/daniel/SanRafael/app/views/hospedaje.blade.php",
+		"/home/daniel/SanRafael/public/js/main.min.js",
 		"/home/daniel/SanRafael/public/js/main.js",
+		"/home/daniel/SanRafael/app/config/mail.php",
+		"/home/daniel/SanRafael/public/images/features3-md.jpg",
+		"/home/daniel/SanRafael/public/images/restaurante-sanrafael.jpg",
+		"/home/daniel/SanRafael/public/css/cover.min.css",
 		"/home/daniel/SanRafael/public/css/cover.css",
-		"/home/daniel/SanRafael/public/actividades.html",
-		"/home/daniel/SanRafael/app/views/main.blade.php",
+		"/home/daniel/SanRafael/public/js/spin.min.js",
 		"/home/daniel/SanRafael/public/camping.html",
+		"/home/daniel/SanRafael/public/ciclismo.html",
+		"/home/daniel/SanRafael/public/actividades.html",
+		"/home/daniel/SanRafael/public/hospedaje.html",
+		"/home/daniel/SanRafael/public/contacto.html",
+		"/home/daniel/SanRafael/public/principal.html",
+		"/home/daniel/Downloads/truchera/sitemap.xml",
+		"/home/daniel/SanRafael/public/js/ie10-viewport-bug-workaround.js",
+		"/home/daniel/SanRafael/public/.htaccess",
+		"/home/daniel/SanRafael/public/images/SRFL.svg",
+		"/home/daniel/SanRafael/public/js/modal.js",
+		"/home/daniel/SanRafael/public/css/modal.css",
+		"/home/daniel/Downloads/SR RESTAURANTE SOLO.svg",
+		"/home/daniel/.cache/.fr-zRFs7r/ICONOS/SR RESTAURANTE SOLO.svg",
+		"/home/daniel/Downloads/truchera/SRFL.svg",
+		"/home/daniel/.cache/.fr-ZGDAe9/ICONOS/SR RESTAURANTE.svg",
+		"/home/daniel/SanRafael/public/index.php",
+		"/home/daniel/SanRafael/public/restaurante.html",
+		"/home/daniel/SanRafael/public/pesca.html",
+		"/home/daniel/SanRafael/public/caminatas.html",
+		"/home/daniel/SanRafael/public/cabalgata.html",
+		"/home/daniel/Downloads/ICONOS CAMINATA.svg",
+		"/home/daniel/Downloads/ICONOS CABALGATA.svg",
+		"/home/daniel/Downloads/ICONOS CICLISMO.svg",
+		"/home/daniel/SanRafael/public/images/ICONOS_CABANA.svg",
+		"/home/daniel/Downloads/ICONOS JUEGOS.svg",
+		"/home/daniel/Downloads/ICONOS RESTAURANTE.svg",
+		"/home/daniel/Downloads/icono contacto.svg",
+		"/home/daniel/Downloads/ICONOS PESCA.svg",
+		"/home/daniel/SanRafael/public/images/restaurante.svg",
+		"/home/daniel/SanRafael/public/images/cabalgata.svg",
+		"/home/daniel/SanRafael/public/images/caminatas.svg",
+		"/home/daniel/SanRafael/public/images/ciclismo.svg",
+		"/home/daniel/SanRafael/public/images/juegos.svg",
+		"/home/daniel/SanRafael/public/images/pesca.svg",
+		"/home/daniel/SanRafael/public/images/tryyy.svg",
+		"/home/daniel/SanRafael/app/routes.php",
+		"/home/daniel/SanRafael/public/images/new.svg",
 		"/home/daniel/SanRafael/public/images/ICONOS_CAMPING.svg",
+		"/home/daniel/SanRafael/public/cabañas.html",
+		"/home/daniel/Downloads/ICONOS CABAÑA.svg",
 		"/home/daniel/Downloads/styles.css",
 		"/home/daniel/Ruizoft/app/views/graph.blade.php",
 		"/home/daniel/Downloads/ex.svg",
 		"/home/daniel/Downloads/ICONOS CAMPING.svg",
-		"/home/daniel/SanRafael/public/principal.html",
-		"/home/daniel/SanRafael/public/hospedaje.html",
 		"/home/daniel/Downloads/iconos PCC.svg",
 		"/home/daniel/Downloads/iconos PNNT.svg",
 		"/home/daniel/SanRafael/public/css/main.css",
-		"/home/daniel/SanRafael/public/contacto.html",
-		"/home/daniel/SanRafael/public/css/modal.css",
 		"/home/daniel/SanRafael/public/css/animate.css",
-		"/home/daniel/SanRafael/app/routes.php",
 		"/home/daniel/SanRafael/public/css/animation.css",
 		"/home/daniel/SanRafael/public/css/effeckt.css",
 		"/home/daniel/.cache/.fr-oXUJBY/slim-scroll-1.2/resources/slimscroll.js",
 		"/home/daniel/SanRafael/public/js/page-transitions.js",
 		"/home/daniel/SanRafael/public/js/button.js",
-		"/home/daniel/SanRafael/public/js/modal.js",
 		"/home/daniel/SanRafael/public/js/core.js",
 		"/home/daniel/Documents/boiler/index.html",
 		"/home/daniel/ud120-projects/final_project/poi_id.py",
@@ -664,50 +679,11 @@
 		"/home/daniel/RedIntegral/app/views/mainJCSS.blade.php",
 		"/home/daniel/RedIntegral/app/views/layouts/base2.blade.php",
 		"/home/daniel/RedIntegral/public/css/bootstrap.min.css",
-		"/home/daniel/RedIntegral/public/css/login.css",
-		"/home/daniel/RedIntegral/public/ajax/clientes.blade.php",
-		"/home/daniel/EncuestaUNAD/app/views/contacto.blade.php",
-		"/home/daniel/RedIntegral/app/models/Cliente.php",
-		"/home/daniel/RedIntegral/app/models/Documento.php",
-		"/home/daniel/RedIntegral/app/models/Seguro.php",
-		"/home/daniel/RedIntegral/app/models/Vinculacion.php",
-		"/home/daniel/RedIntegral/app/views/MODI.CSS",
-		"/home/daniel/RedIntegral/public/ajax/seguridad.html",
-		"/home/daniel/RedIntegral/public/ajax/funeraria.html",
-		"/home/daniel/RedIntegral/app/models/Seguridad.php",
-		"/home/daniel/RedIntegral/app/models/untitled.html",
-		"/home/daniel/RedIntegral/app/config/mail.php",
-		"/home/daniel/RedIntegral/app/controllers/UserController.php",
-		"/home/daniel/RedIntegral/app/database/migrations/2014_12_29_234938_create_users_table.php",
-		"/home/daniel/RedIntegral/app/filters.php",
-		"/home/daniel/RedIntegral/public/js/formLoad.js",
-		"/home/daniel/RedIntegral/app/config/view.php",
-		"/home/daniel/RedIntegral/app/config/services.php",
-		"/home/daniel/RedIntegral/app/config/auth.php",
-		"/home/daniel/RedIntegral/app/start/global.php",
-		"/home/daniel/Ruizoft/app/controllers/HomeController.php",
-		"/home/daniel/Ruizoft/app/models/Empleado.php",
-		"/home/daniel/Ruizoft/app/views/perfil.blade.php",
-		"/home/daniel/RedIntegral/app/controllers/BaseController.php",
-		"/home/daniel/RedIntegral/app/config/database.php",
-		"/home/daniel/RedIntegral/app/database/seeds/DatabaseSeeder.php",
-		"/home/daniel/Ruizoft/app/database/migrations/2014_10_15_211307_create_users_table.php",
-		"/home/daniel/Ruizoft/app/views/navbar.blade.php",
-		"/home/daniel/Ruizoft/app/views/Enterate.blade.php",
-		"/home/daniel/Ruizoft/app/views/tuEmpresa.blade.php",
-		"/home/daniel/Ruizoft/public/css/carousel.css",
-		"/home/daniel/Ruizoft/public/css/bootstrap.min.css",
-		"/home/daniel/Ruizoft/public/css/cover.css",
-		"/home/daniel/Ruizoft/app/views/layouts/base2.blade.php",
-		"/opt/lampp/htdocs/v15/mariposa/app/Controller/MenusController.php",
-		"/opt/lampp/htdocs/v15/renders/js/agregar_Inscripcion.js",
-		"/opt/lampp/htdocs/v15/mariposa/app/Controller/InscripcionsController.php",
-		"/opt/lampp/htdocs/v15/renders/agregar_inscripcion.php",
-		"/opt/lampp/htdocs/v15/mariposa/app/View/Seguimientos/recibeajax.ctp"
+		"/home/daniel/RedIntegral/public/css/login.css"
 	],
 	"find":
 	{
-		"height": 55.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -721,6 +697,102 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fb",
+			"$(\".hospedajeRow\").height($( window ).height());",
+			"button",
+			"spinner2.stop();",
+			"spinner2.stop();\n",
+			"spinner2.stop();",
+			" spinner2.stop();",
+			"spinner2.stop();\n",
+			"spinner2.stop();",
+			" spinner2.stop();",
+			"\n        ",
+			"spinner2.stop();\n",
+			"spinner2.stop();",
+			"fb",
+			"cover.m",
+			"cover",
+			"style",
+			"leftCol",
+			"img",
+			"alt",
+			"weekly",
+			"spinner",
+			"function",
+			"effeckt-modal-button",
+			"turismo",
+			"Actividades",
+			"img",
+			"width=\"300px;\"",
+			"250px",
+			"6",
+			"clickLoad",
+			"text",
+			"#50A767",
+			"#FFFFFF",
+			"</g>",
+			"<g>",
+			"width",
+			"height=\"150px\"",
+			"18px",
+			"from-below",
+			"- 95",
+			"jumbo",
+			"logo",
+			"log",
+			"main-cover-con",
+			"log",
+			"main-cover-container h",
+			"<g>",
+			"		<g>\n",
+			"<g>",
+			"	<g>\n",
+			"<g>",
+			"</svg>",
+			"</g>",
+			"<g>",
+			"\n				",
+			"			<g>\n",
+			"<g>",
+			"		<g>\n",
+			"<g>",
+			"<g>\n",
+			"g>",
+			"	<g>\n",
+			"<g>",
+			"<g>\n",
+			"<g>",
+			"\n		",
+			"	<g>\n",
+			"<g>",
+			"restaurante",
+			"pesca",
+			"cabalgata",
+			"imgMain",
+			"Window\"",
+			"modalWindow\">",
+			"Window\"",
+			"ow\"",
+			"\">\n",
+			"modalWindow\">",
+			"dow\"",
+			"btn btn-default",
+			"horses1",
+			"horses",
+			"horses2",
+			"pesca",
+			"horses",
+			"cabana",
+			"width=\"800px\" height=\"600px\"",
+			"\">\n",
+			"width=\"800px\" height=\"600px\">",
+			"width=\"800px\" height=\"600px\"",
+			"cabanas",
+			"cabañas",
+			"Cabañas",
+			"cabañas",
+			"camping",
 			"230px",
 			"200px",
 			" background-image:",
@@ -752,103 +824,7 @@
 			"imgMain",
 			"animatedLeft",
 			"animatedRight",
-			"off",
-			"fadeInLeft",
-			".animated",
-			"50",
-			"100",
-			"slideToTop",
-			"100",
-			"(-100%);",
-			"-100%)",
-			"slideToTop",
-			"slideToBottom",
-			"effeckt-page",
-			"jumbo",
-			"1200",
-			"effeckt-page",
-			"[data-effeckt-page]",
-			".effeckt-modal-wrap",
-			"&raquo;",
-			"h2",
-			"140",
-			"hidden",
-			">>>",
-			"background-position: 7px 9px;",
-			"background-position: 5px 9px;",
-			"background-position: 0 9px;",
-			"padding-right: 45px;",
-			"span",
-			"masterhead",
-			"padding-left",
-			"h4",
-			"colCustom",
-			"http://placehold.it/350x550",
-			"http://placehold.it/350x500",
-			"http://placehold.it/350x150",
-			"content",
-			"for",
-			"messages",
-			"enviarCorreo",
-			"correoForm",
-			"getElementById",
-			"cliente",
-			"clientes",
-			"{{{$foto}}}",
-			"{{{$name or ''}}}",
-			"value",
-			"printButton",
-			"cliente",
-			"fechaPago",
-			"fechaDia",
-			"estado",
-			"estrato",
-			"ingresos",
-			"celular",
-			"telefono",
-			"ocupacion",
-			"profesion",
-			"cedula",
-			"vinculaciones",
-			"ciudadRes",
-			"console",
-			"recibos",
-			"printButton",
-			"jqxGrid\"",
-			"input",
-			"nameR",
-			"vincu",
-			"$fechaMes",
-			"fechaMes",
-			"currentClient",
-			"value",
-			"console.log(datos);",
-			"jqwidgets",
-			"javascript.js",
-			"{{{ $disabled or \"\"}}}",
-			"{{{",
-			"clearfix",
-			"masterhead",
-			"new $.jqx.dataAdapter",
-			"initrowdetails",
-			"”",
-			"<option>",
-			"documentos",
-			"140",
-			"tipo",
-			"where",
-			"nombre",
-			"h1",
-			"4",
-			"    ",
-			"    $",
-			"    ",
-			"    $",
-			"=",
-			" =",
-			"=",
-			"json_decode",
-			"nombre"
+			"off"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -866,93 +842,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/main.blade.php",
-					"settings":
-					{
-						"buffer_size": 73949,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								43671,
-								43671
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6856.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/js/main.js",
-					"settings":
-					{
-						"buffer_size": 8417,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "public/css/cover.css",
-					"settings":
-					{
-						"buffer_size": 10571,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1334,
-								1334
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6210.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -989,7 +880,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

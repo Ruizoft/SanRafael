@@ -1,28 +1,17 @@
-/*
- * Globals
- */
-
-/* Links */
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
-
-/* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
+  text-shadow: none; 
   background-color: #fff;
   border: 1px solid #fff;
 }
 
-
-/*
- * Base structure
- */
 
 html,
 body {
@@ -49,23 +38,7 @@ h1,h2,h3{
   border-radius: 20px; 
   border-color: #0D5D56;
 }
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-  border-right: 1px solid #295038;
-}
-.col-lg-4:last-child{
-  border-right: 0px;
-}
-.marketing h3 {
-  font-weight: normal;
-  color:#FFFFFF ;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-  color:#FFFFFF;
-}
+
 
 .site-wrapper.main {
 
@@ -97,9 +70,9 @@ left: 0px;
 
 .main-cover-container{
   position: absolute;
-  top: 44%;
-  left:25%;
-  width: 50%;
+  top: 42%;
+  left:32%;
+  width: 37%;
   z-index: 1300;
   opacity: 1;
   color: #fff;
@@ -184,12 +157,12 @@ display: none;
   border-color: transparent;
   font-family: Kraftstoff;
 }
-   .col-lg-6.leftCol {
+  .leftColPic {
    background-image: url(../images/camping.jpg);
    background-size: 100% 100%;
    height: 100%
    }
-      .col-lg-6.rightCol {
+    .rightColPic {
    background-image: url(../images/cabaña-cover.jpg);
    background-size: 100% 100%;
    height: 100%
@@ -201,6 +174,60 @@ display: none;
   margin-top: -5px;
 }
 
+.jumbotron {
+  padding: 0px;
+}
+.jumboGrass {
+    background-image: url(../images/grass.jpg);
+    background-size: 100% 100%;
+}
+footer {
+  background-color: #DADADA;
+}
+
+footer p {
+  font-size: 20px;
+  font-family: Kraftstoff;
+}
+
+.footerUl {
+  list-style: none;
+  padding: 5px;
+}
+.footerUl a {
+  color:#4C4C4C;
+  text-decoration: none;
+  font-family: Kraftstoff;
+  font-size: 18px;
+}
+
+.colorNav{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.modal-lg{
+  height: 100%;
+  width:100%;
+  margin: 0px;
+}
+.modal-content{
+  height: 100%;
+}
+
+ .conta{
+  background-color: #4CAF50;
+}
+#loader {
+  position:fixed;
+  height:100%;
+  width:100%;
+  z-index:2000;
+  background-color:#fff;
+}
+.modal-footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 @media (max-width: 767px) {
   .jumbotron {
    width: 100%;
@@ -254,7 +281,6 @@ display: none;
 
 
 .animatedLeft {
-      opacity: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
 }
@@ -265,51 +291,28 @@ display: none;
 
 
 @-webkit-keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
+  to {
+    -webkit-transform: translate3d(1%, 0, 0);
+    transform: translate3d(1%, 0, 0);
   }
 }
 
 @keyframes fadeInLeft {
 to {
-    opacity: 1;
     -webkit-transform: translate3d(1%, 0, 0);
     transform: translate3d(1%, 0, 0);
   }
 }
 @-webkit-keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
+  to {
+    -webkit-transform: translate3d(1%, 0, 0);
+    transform: translate3d(1%, 0, 0);
   }
 }
 
 @keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-  }
-
-  100% {
+  to {
     opacity: 1;
-    -webkit-transform: none;
-    transform: none;
   }
 }
 .animated {
@@ -326,6 +329,7 @@ to {
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
+  animation-duration: 1.6s;
 }
 
 
@@ -339,14 +343,13 @@ transition: transform 1.7s ease-in;*/
 .moveRight {
     display: table;
 animation: slideToRight 1100ms forwards ease-in-out;
-/*transform:translateX(100%);
-transition: transform 1.7s ease-in;*/
+
 
 }
 .site-wrapper {
   display: table;
   width: 100%;
-  height: 100%; /* For at least Firefox */
+  height: 100%; 
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.3);
           box-shadow: inset 0 0 100px rgba(0,0,0,.3);
@@ -379,29 +382,17 @@ transition: transform 1.7s ease-in;*/
 }
 
 
-/*
- * Footer
- */
 
 
-/*
- * Affix and center
- */
 @media (min-width: 768px) {
   .site-wrapper-inner {
     vertical-align: middle;
   }
-  /* Handle the widths */
+
 }
 
 @media (min-width: 992px) {
 
-  .col-lg-6.leftCol,
-  .col-lg-6.rightCol,
-  .row.hospedajeRow  {
-    
-
-  }
 
    .col-lg-6.leftCol > div > h2,
   .col-lg-6.rightCol > div > h2{
@@ -422,19 +413,15 @@ transition: transform 1.7s ease-in;*/
 }
  .main-cover .main-cover-container h1 {
 
-     font-weight: 900;
-     font-size: 80px;
+     font-weight: 800;
+     font-size: 120px;
      line-height: 0.9;
 }
 .main-cover .main-cover-container h3 {
 
      font-weight: 700;
 }
-   .navbar {
-    position: absolute;
-    top: 0;
-    width: 100%;
-   }
+   
 
 }
 
@@ -443,17 +430,20 @@ transition: transform 1.7s ease-in;*/
 }
 
 .featurette-divider {
-  margin: 30px 0; /* Space out the Bootstrap <hr> more */
+  margin: 17px 0; 
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
 }
 @media (min-width: 768px) {
-
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+   }
   .featurette-heading {
     font-size: 50px;
 
@@ -464,23 +454,24 @@ transition: transform 1.7s ease-in;*/
   .jumbotron {
     background-image: url(../images/cover-md.jpg);
   background-size: 100% 100%;
+  padding: 0px;
 }
-}
-.colActividades {
-  border-right: 0.1em dotted transparent;
-  border-top: 0.1em solid transparent;
-  border-image: url('http://emptyeasel.com/wp-content/uploads/2012/11/creatingtexture2-carrielewis.jpg') 27 18 0 0 stretch round;
-  transform: rotate(-1deg);
-  min-height: 100%;
-  
 }
 @media (min-width: 992px) {
-  .jumbotron.jumboGrass {
-    background-image: url(../images/grass.jpg);
-    background-size: 100% 100%;
-}
-  .featurette-heading {
-    margin-top: 120px;
+  .modal-open .modal{
+    overflow-y:hidden;
+  }
+  .jumboHeight {
+        height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .lowRow{
+    margin-top:23%;
+  }
+
+    .featurette-heading {
+    margin-top: 80px;
   }
   .leadCenter {
     padding: 10px 80px;
@@ -501,7 +492,7 @@ transition: transform 1.7s ease-in;*/
   height: 100%;
 }
 .navbar-default .navbar-nav>li>a{
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 600;
   text-shadow:none;
 }
@@ -558,6 +549,7 @@ transition: transform 1.7s ease-in;*/
   top: 0;
   width: 100%;
   height: 100%;
+  display:none;
 }
 .imgLeft,
 .imgRight{
@@ -588,12 +580,12 @@ transition: transform 1.7s ease-in;*/
 }
 .theImg {
   border-top: 0.1em solid transparent;
-  /*border-image: url('http://emptyeasel.com/wp-content/uploads/2012/11/creatingtexture2-carrielewis.jpg') 27 0 0 0 stretch round;*/
   border-radius: 1em;
   left: 0;
   top: 0;
   transform: rotate(-1deg);
   width:100%;
+  height: 90%;
   position:absolute;
 }
 
@@ -618,6 +610,7 @@ transition: transform 1.7s ease-in;*/
 }
 
 .imgMain {
+  display:block;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn 1.5s ease;
 }
@@ -647,21 +640,21 @@ transition: transform 1.7s ease-in;*/
 @keyframes moveLogo {
   100% {
    
-    transform: translate(510px,180px) scale(2,2);;
+    transform: translate(40vw,22vh) scale(2,2);;
 
   }
 }
 
 .moveLogo{
-  position: absolute;
+  position: relative;
   
    -webkit-animation-name: moveLogo;
    animation-name: moveLogo;
 }
-
+.social{
+  margin: 30px;
 }
-
-
+}
 @font-face {
 font-family: Kraftstoff;
 src: url("../fonts/Kraftstoff-Regular.otf") format("opentype");

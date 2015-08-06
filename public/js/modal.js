@@ -1,15 +1,3 @@
-/**
- * modalEffects.js v1.1.0
- * http://www.codrops.com
- *
- * Rewritten for effeckts project
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- *
- * Copyright 2013, Codrops
- * http://www.codrops.com
- */
 ;(function(window){
 
   var Effeckt = window.Effeckt;

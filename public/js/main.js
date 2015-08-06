@@ -1,41 +1,48 @@
+var url = window.location.href ;
 $( document ).ready(function() {
-    spinner.stop();
-    $("#loader").hide();
-    var url = window.location.href ;
+   
     if(url.search("hospedaje") != -1){
         $( "li" ).removeClass( "active" );  
          $(".hospedajeRow").height($( window ).height());
         $( "#hospedaje" ).closest( "li" ).addClass("active");  
-       $( ".right" ).load( "actividades.html" );
-       $( ".left" ).load( "principal.html" ); 
+        
     }
     if(url.search("actividades") != -1){
+         if($( window ).width() < 701){
+         }else{
+            $(".jumbotron").height($( window ).height());
+            $("ul.navbar-right > li").addClass("colorNav");
+         }
         $( "li" ).removeClass( "active" );  
         $( "#actividades" ).closest( "li" ).addClass("active");
-       $( ".left" ).load( "hospedaje.html" );
-       $( ".right" ).load( "principal.html" ); 
+        
     }
     if(url.search("hospedaje") == -1 && url.search("actividades") == -1 ){
-        if($( window ).width() < 601){
+        if($( window ).width() < 701){
+            if($( window ).height() > $( window ).width()){
      $(".jumbotron").height($( window ).height()/ 2);
      $(".main-cover").height($( window ).height()/ 2);
      $(".main-shade").height($( window ).height()/ 2);
-}else {$(".jumbotron").height($( window ).height()- 95);$(".main-cover").height($( window ).height());$(".main-shade").height($( window ).height());
+ }else{$(".jumbotron").height($( window ).height()-20);$(".main-cover").height($( window ).height()-20);$(".main-shade").height($( window ).height()-20);}
+}else {$(".jumbotron").height($( window ).height());$(".main-cover").height($( window ).height());$(".main-shade").height($( window ).height());
         
 
      $("#logo").toggleClass("moveLogo");   
 }
     $( ".rightDiv" ).addClass( "animatedRight" );
     $( ".leftDiv" ).addClass( "animatedLeft" );
-	$( ".right" ).load( "hospedaje.html" );
-	$( ".left" ).load( "actividades.html" );
+	
      
     }
 
-    $( "#hospedaje" ).click(function(event) {
+    $( ".hospedajee" ).click(function(event) {
         event.preventDefault();
+        $("ul.navbar-right > li").removeClass("colorNav");
         $("#logo").removeClass("moveLogo"); 
+        $("div").removeClass("fadeInLeft");
+        if($( window ).width() > 600){
         $(".hospedajeRow").height($( window ).height());
+    }
         $( ".rightDiv" ).removeClass( "animatedRight" );
         $( ".leftDiv" ).removeClass( "animatedLeft" );
         $( "li" ).removeClass( "active" );  
@@ -65,16 +72,18 @@ $( document ).ready(function() {
         
     });
     $( "#principal" ).click(function(event) {
-        if($( window ).width() < 601){
+
+        if($( window ).width() < 701){
      $(".jumbotron").height($( window ).height()/ 2);
-}else {$(".jumbotron").height($( window ).height()- 95);$(".main-cover").height($( window ).height());$(".main-shade").height($( window ).height());}
+}else { $("#logo").toggleClass("moveLogo");$(".jumbotron").height($( window ).height());$(".main-cover").height($( window ).height());$(".main-shade").height($( window ).height());}
         $( ".rightDiv" ).addClass( "animatedRight" );
         $( ".leftDiv" ).addClass( "animatedLeft" );
+         $("ul.navbar-right > li").removeClass("colorNav");
         event.preventDefault();
+         
         $( "li" ).removeClass( "active" );  
         $( "#principal" ).closest( "li" ).addClass("active");
-        window.history.pushState('obj', 'newtitle', '/');
-         $("#logo").toggleClass("moveLogo"); 
+        window.history.pushState('obj', 'newtitle', '/'); 
     	if($( ".principal" ).hasClass( "right" ) == true){
          $( ".main" ).addClass( "moveLeft" );
          $( ".right" ).addClass( "moveLeft" );
@@ -92,15 +101,15 @@ $( document ).ready(function() {
             $( ".principal" ).addClass( "main" ).removeClass("left");
             $( ".hospedaje" ).addClass( "right" ).removeClass("main");
             $( ".actividades" ).addClass( "left" ).removeClass("right");
-            $( "div" ).removeClass( "moveRight" );  
+            $( "div" ).removeClass( "moveRight" ); 
+             
             }, 1101);
      }
     });
-        $( "#actividades" ).click(function(event) {
+        $( ".actividadess" ).click(function(event) {
             event.preventDefault();
-            if($( window ).width() < 601){
-     $(".jumbotron").height($( window ).height());
-}else {$(".jumbotron").height($( window ).height()- 96);}
+            if($( window ).width() < 701){
+}else {$(".jumbotron").height($( window ).height()); $("ul.navbar-right > li").addClass("colorNav");}
          $("#logo").removeClass("moveLogo");
          $( ".rightDiv" ).removeClass( "animatedRight" );
          $( ".leftDiv" ).removeClass( "animatedLeft" );
@@ -130,7 +139,11 @@ $( document ).ready(function() {
 
          }
     });
-  
+        $(".actiImg").width($(window).width() * 0.2306);
+        if($(window).height() > $(window).width()){
+        $(".actiImg").width($(window).height() * 0.2406);
+        }
+    
 
 $(window).scroll(function() {
         $('.animatedLeft').each(function(){
@@ -153,29 +166,65 @@ $(window).scroll(function() {
         });
 
     });
+    
+    if (isMobile() == true) {
+        $(".clickLoad").attr("ontouchstart","loadModal(this)");
+        $(".clickLoad").attr("onclick","");
+    }
+
+   
 
 });
 
 
 function loadModal(x){
-    console.log(1);
     $("html").addClass("noYScroll");
     switch($(x).data("tipo") ){
         case "camping":
-        $( "#modalContent" ).load( "camping.html" );
-        //$( ".modal-title" ).text( "Zona de camping" );
+        $( "#modalContent" ).load( "camping.html", function() {
+        } );
+        $("#mainModal").modal("show");
+        break;
+        case "cabañas":
+        $( "#modalContent" ).load( "cabañas.html", function() {
+        });
+        $("#mainModal").modal("show");
+        break;
+        case "cabalgata":
+        $( "#modalContent" ).load( "cabalgata.html", function() {
+        });
+         $("#mainModal").modal("show");
+        break;
+        case "pesca":
+        $( "#modalContent" ).load( "pesca.html", function() {
+        } );
+        $("#mainModal").modal("show");
+        break;
+        case "restaurante":
+        $( "#modalContent" ).load( "restaurante.html", function() {
+        });
+        $("#mainModal").modal("show");
+        break;
+         case "caminata":
+        $( "#modalContent" ).load( "caminatas.html", function() {
+        });
+        $("#mainModal").modal("show");
+        break;
+        case "ciclismo":
+        $( "#modalContent" ).load( "ciclismo.html", function() {
+        });
+        $("#mainModal").modal("show");
         break;
         case "contacto":
-        console.log(2);
-        $( "#modalContent" ).load( "contacto.html" );
-        //$( ".modal-title" ).text( "Contacto" );
-        /*setTimeout(function(){
-             initialize();
-            }, 1800);*/
-        
+        $( "#modalContent" ).load( "contacto.html", function() {
+        });
+        $("#mainModal").modal("show");
         break;
         case "close":
+        console.log("hmm");
+        $( "#modalContent" ).empty();
         $("html").removeClass("noYScroll");
+        $('#mainModal').modal('hide');
         break;
     }
 }
@@ -195,19 +244,71 @@ function imgMove(x){
         break;
     }
 }
+function imgMove2(x){
+    switch($(x).data("move") ){
+        case "next":
+        $( ".imgContainer" ).toggleClass('imgMain');
+        
+        break;
+        case "previous":
+         $( ".imgContainer" ).toggleClass('imgMain');
+        break;
+    }
+}
+
+ $(".parkSVG").width($( window ).width() * 0.2306);
+ $(".parkSVG").height($( window ).height() * 0.2203);
 
 if($( window ).width() < 701){
      $("#logo").width(80);
 }
 
-if($( window ).width() < 901){
+if($( window ).width() < 701){
      $(".parkSVG").hide();
 }
 
-$( window ).resize(function() {
- $(".jumbotron").height($( window ).height()- 95);
+ if (isMobile() != true) {
+
+$( window ).resize(function() { 
+ $(".jumbotron").height($( window ).height());
  $(".main-cover").height($( window ).height());
  $(".main-shade").height($( window ).height());
  $(".hospedajeRow").height($( window ).height());
+  $(".parkSVG").width($( window ).width() * 0.2306);
+ $(".parkSVG").height($( window ).height() * 0.2203);
 
+});
+}
+
+function isMobile() {
+    if (navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)
+            || navigator.userAgent.match(/Opera Mini/i)
+            || navigator.userAgent.match(/IEMobile/i)
+            ) {
+        return true;
+    }
+}
+
+$(window).load(function() { 
+   spinner.stop();
+   $("#loader").hide();
+   if(url.search("hospedaje") == -1 && url.search("actividades") == -1 ){
+        $( "#feature2" ).attr("src","images/restaurante-sanrafael.jpg");
+        $( "#feature3" ).attr("src","images/noche-sanrafael.jpg");
+        $( ".right" ).load( "hospedaje.html" );
+        $( ".left" ).load( "actividades.html" );
+   }
+   if(url.search("hospedaje") != -1){
+       $( ".right" ).load( "actividades.html" );
+       $( ".left" ).load( "principal.html" );
+   }
+   if(url.search("actividades") != -1){
+       $( ".left" ).load( "hospedaje.html" );
+       $( ".right" ).load( "principal.html" );
+   }
 });

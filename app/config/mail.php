@@ -28,7 +28,7 @@ return array(
 	|
 	*/
 
-	'host' => 'a2plcpnl0147.prod.iad2.secureserver.net',
+	'host' => 'a2plcpnl0257.prod.iad2.secureserver.net',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'ruizoft2015@ruizoft.com', 'name' => 'ruizoft2015'),
+	'from' => array('address' => 'info@fincasanrafael.co', 'name' => 'SanRafael'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return array(
 	|
 	*/
 
-	'username' => 'ruizoft2015',
+	'username' => 'sanrafael2015',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => 'Iltzm1013',
+	'password' => 'SanRafael15',
 
 	/*
 	|--------------------------------------------------------------------------

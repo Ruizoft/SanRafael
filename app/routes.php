@@ -22,6 +22,10 @@ Route::get('/actividades', function()
 {
     return View::make("actividades");
 });
+Route::get('/try', function()
+{
+    return View::make("try");
+});
 
 
 
